@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+.main-board {
+  background-color: #eee;
+  min-height: 100vh;
+}
+.float-right {
+  float: right !important;
+}
+.error {
+  color: darkred;
+}
+ul.user-group,
+ul.task-group {
+  list-style-type: none;
+  padding: 0;
+}
+ul.user-group a {
+  display: block;
+  text-align: left;
+  background-color: white;
+}
+ul.user-group li,
+ul.task-group li {
+  padding: 3px 0;
+}
+
+ul.task-group li svg {
+  font-size: 20px;
+  margin-right: 10px;
+}
+ul.task-group li .task {
+  display: flex;
+}
+.task {
+  cursor: pointer;
+}
+.task.completed {
+  cursor: default;
+}
