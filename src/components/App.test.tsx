@@ -9,3 +9,5 @@ test("Board Loaded", async () => {
   //Load user test
   await (waitFor(() => screen.getByText('Leanne Graham'),{timeout:10000}));
 });
+
+//TODO: We should add more tests for functions
